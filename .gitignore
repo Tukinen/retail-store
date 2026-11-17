@@ -1,4 +1,8 @@
 node_modules
 .next
 .env.local
+<<<<<<< HEAD
 *.tsbuildinfo
+=======
+.env
+>>>>>>> ea8eee933ceaf74f9c25a9f75a8be4a3f2e946cd

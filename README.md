@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Жижиглэнгийн дэлгүүр — MVP 2
 
 ## Суулгах
@@ -26,3 +27,9 @@ Supabase-ийн үнэгүй багцын PITR/автомат backup болом�
 - Өмнөх `sales` мөрүүд шинэ receipt тайланд **автоматаар шилжихгүй**. Хуучин өгөгдөлтэй бол шилжүүлэлтийн тусгай ажил хэрэгтэй.
 - Тайлан client-side, хүснэгт тус бүр 10,000 мөр хүртэл; их хэмжээний дата дээр server-side aggregation шаардлагатай.
 - Энэ кодыг live Supabase/Vercel дээр туршаагүй. Production ашиглалтаас өмнө RLS, concurrent sale, split payment, refund, cash close, restore test хий.
+=======
+# Retail Store
+Next.js + Supabase retail inventory and receipt application.
+
+Configure NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY in Vercel. Database migrations were applied in Supabase. This is an initial deployment and requires transactional and security testing before real-money use.
+>>>>>>> ea8eee933ceaf74f9c25a9f75a8be4a3f2e946cd
